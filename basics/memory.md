@@ -6,7 +6,7 @@ D varsayılan olarak kullanılmayan belleği temizlemek için *çöp toplayıcı
 
 D, C dilinde olduğu gibi `T*` şeklinde işaretçiler sağlar
 
-    int a;
+    int a;
     int* b = &a; // b, a değişkeninin adresini tutar.
     auto c = &a; // c, bir int* ve a değişkeninin adresini tutar.
 
