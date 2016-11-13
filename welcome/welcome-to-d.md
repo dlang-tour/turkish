@@ -1,58 +1,54 @@
-# Welcome to D
+# D'ye Hoşgeldiniz
 
-Welcome to the interactive tour of the *D Programming language*.
+Etkileşimli D Programlama Dili turuna hoş geldiniz.
 
 {{#dmanmobile}}
 
-This tour gives an overview of this __powerful__ and __expressive__
-language which compiles directly to __efficient__, __native__ machine code.
+Bu tur bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler.
 
 {{/dmanmobile}}
 
-### What is D?
+### D Nedir?
 
-D is the culmination of _decades of experience implementing compilers_
-for many diverse languages and has a large number of
-[unique features](http://dlang.org/overview.html):
+D dili, bir çok farklı programlama dilinin onlarca yıllık birikiminin doruk noktasıdır ve çok sayıda [eşsiz özelliğe](http://dlang.org/overview.html) sahiptir:
 
 {{#dmandesktop}}
 
-- _high level_ constructs for great modeling power
-- _high performance_, compiled language
-- static typing
-- evolution of C++ (without the mistakes)
-- direct interface to the operating system API's and hardware
-- blazingly fast compile-times
-- allow memory-safe programming (SafeD)
-- _maintainable_, _easy to understand_ code
-- short learning curve (C-like syntax, similar to Java and others)
-- compatible with C application binary interface
-- multi-paradigm (imperative, structured, object oriented, generic, functional programming purity, and even assembly)
-- built-in error prevention (contracts, unittests)
+- harika modelleme gücü için _yüksek seviye kurucular_
+- _yüksek performans_, derlemeli dil
+- statik tür tanımlaması
+- işletim sistemi arayüzüne ve donanımına doğrudan erişim
+- inanılmaz hızlı derleme süresi
+- güvenli bellek yönetimi (SafeD)
+- _kolay anlaşılır_, _düzenlenebilir_ kod
+- kısa sürede öğrenme (C benzeri sözdizimi, Java ve diğer dillere benzer)
+- C ABI (application binary interface) ile uyumlu
+- Kısıtlı C++ ABI uyumluluğu
+- çoklu-paradigma (emirli, yapısal, nesne tabanlı, türden bağımsız, fonksiyonel programlama, saflık ve hatta assembly)
+- gömülü hata engelleme (sözleşmeler, birim testleri)
 
-... and many more [features](http://dlang.org/overview.html).
+... ve daha birçok [özellik](http://dlang.org/overview.html).
 
 {{/dmandesktop}}
 
-### About the tour
+### Tur Hakkında
 
-Each section comes with a source code example that can be modified and used
-to experiment with D's language features.
-Click the run button (or `Ctrl-enter`) to compile and run it.
+Her bölüm, değiştirilebilir kod örnekleri ile beraber gelmektedir. Bu sayede D dilinin özelliklerini deneyimleyebilirsiniz.
+Çalıştır düğmesine basarak (veya `Kntrl-enter` ile) programı derleyebilir ve çalıştırabilirsiniz.
 
-### Contributing
+### Katkıda Bulun
 
-This tour is [open source](https://github.com/dlang-tour)
-and we are glad about pull requests making this tour even better.
+Bu tur [açık kaynak kodludur](https://github.com/stonemaster/dlang-tour).
+Bu turu daha iyi bir hale getirmek için yapacağınız katkılardan memnun kalırız.
 
 ## {SourceCode}
 
 ```d
 import std.stdio;
 
-// Let's get going!
+// Hadi Başlayalım!
 void main()
 {
-    writeln("Hello World!");
+writeln("Merhaba Dünya!");
 }
 ```
