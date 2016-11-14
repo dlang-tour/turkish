@@ -4,7 +4,7 @@ Etkileşimli D Programlama Dili turuna hoş geldiniz.
 
 {{#dmanmobile}}
 
-Bu tur bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler.
+Bu tur, bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler.
 
 {{/dmanmobile}}
 
@@ -14,7 +14,7 @@ D dili, bir çok farklı programlama dilinin onlarca yıllık birikiminin doruk 
 
 {{#dmandesktop}}
 
-- harika modelleme gücü için _yüksek seviye kurucular_
+- harika modelleme gücü için _yüksek seviye olanaklar_
 - _yüksek performans_, derlemeli dil
 - statik tür tanımlaması
 - işletim sistemi arayüzüne ve donanımına doğrudan erişim
@@ -34,7 +34,7 @@ D dili, bir çok farklı programlama dilinin onlarca yıllık birikiminin doruk 
 ### Tur Hakkında
 
 Her bölüm, değiştirilebilir kod örnekleri ile beraber gelmektedir. Bu sayede D dilinin özelliklerini deneyimleyebilirsiniz.
-Çalıştır düğmesine basarak (veya `Kntrl-enter` ile) programı derleyebilir ve çalıştırabilirsiniz.
+Çalıştır düğmesine basarak (veya `Ctrl-enter` ile) programı derleyebilir ve çalıştırabilirsiniz.
 
 ### Katkıda Bulun
 
@@ -46,7 +46,7 @@ Bu turu daha iyi bir hale getirmek için yapacağınız katkılardan memnun kal�
 ```d
 import std.stdio;
 
-// Hadi Başlayalım!
+// Haydi Başlayalım!
 void main()
 {
 writeln("Merhaba Dünya!");
