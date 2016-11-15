@@ -4,7 +4,7 @@ Etkileşimli D Programlama Dili turuna hoş geldiniz.
 
 {{#dmanmobile}}
 
-Bu tur, bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler.
+Bu tur, bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler. 
 
 {{/dmanmobile}}
 
