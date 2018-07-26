@@ -2,7 +2,7 @@
 
 {{#img-right}}turtle.svg{{/img-right}}
 
-D dilinin ana tasarım amacı tutatarlı olmak ve uç durumlardan uzak durmaktır.
+D dilinin ana tasarım amacı tutarlı olmak ve uç durumlardan uzak durmaktır.
 Bu durum [_turtles all the way down_](https://en.wikipedia.org/wiki/Turtles_all_the_way_down) olarak söylenir.
 Bu durumun iyi bir örneği ise `import` ifadesidir. 
 
