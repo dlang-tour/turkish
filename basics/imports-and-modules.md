@@ -6,7 +6,7 @@ D dilinin ana tasarım amacı tutarlı olmak ve uç durumlardan uzak durmaktır.
 Bu durum [_turtles all the way down_](https://en.wikipedia.org/wiki/Turtles_all_the_way_down) olarak söylenir.
 Bu durumun iyi bir örneği ise `import` ifadesidir. 
 
-## Import
+## Modül Eklemek
 
 D dilindeki basit bir merhaba dünya uygulaması için, `import` gereklidir.
 `import` ifadesi verilen `modül`deki herkese açık tüm (public) işlev (function) ve türleri
@@ -19,7 +19,7 @@ Yerel bir şekilde işlevlerin ya da kapsamların içerisinde kullanılabilir.
 Sonraki bölümlerde bunun D dilindeki neredeyse bütün kavramlarda uygulandığını göreceksiniz.
 D dili nedensizce kısıtlamalar uygulamaz.
 
-### Seçici Import
+### Modülden Seçerek Eklemek 
 Herkesçe kabul edilen kütüphane, [Phobos](https://dlang.org/phobos/),
 `std` paketinin içindedir ve modüllere `import std.MODÜL` şeklinde erişilir.
 
