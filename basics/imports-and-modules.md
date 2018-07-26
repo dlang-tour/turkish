@@ -16,7 +16,7 @@ kullanılabilir/erişilebilir kılar.
 
 Bir `import` ifadesi kaynak kodun en üst satırında bulunmak zorunda __değil__. 
 Yerel bir şekilde işlevlerin ya da kapsamların içerisinde kullanılabilir.
-Bir sonraki bölümde bunun D dilindeki neredeyse bütün kavramlarda uygulandığını göreceksiniz.
+Sonraki bölümlerde bunun D dilindeki neredeyse bütün kavramlarda uygulandığını göreceksiniz.
 D dili nedensizce kısıtlamalar uygulamaz.
 
 ### Seçici Import
