@@ -9,7 +9,7 @@ Bu durumun iyi bir örneği ise `import` ifadesidir.
 ## Modül Eklemek
 
 D dilindeki basit bir merhaba dünya uygulaması için, `import` gereklidir.
-`import` ifadesi verilen `modül`deki herkese açık tüm (public) işlev (function) ve türleri
+`import` ifadesi verilen `modül`deki herkese açık (public) tüm işlev (function) ve türleri
 kullanılabilir/erişilebilir kılar.
 
 ### The turtles start falling down
@@ -27,7 +27,7 @@ Ayrıca `import` ifadesi modülün içinden belirli sembolleri seçmek için de 
 
     import std.stdio : writeln, writefln;
 
-Seçici import, okunabilirliği arttırmak ve bir sembolün nereden geldiğini
+Modülden seçerek eklemek, okunabilirliği arttırmak ve bir sembolün nereden geldiğini
 göstermek için kullanılabilir. Ayrıca farklı modüllerdeki aynı isme sahip
 semboller arasındaki çakışmayı engellemek için kullanılabilir.
 
