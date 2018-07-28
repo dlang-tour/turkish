@@ -1,11 +1,12 @@
 # D programlarını çalıştırmak
 
-D `dmd` derleyicisi, betik-gibi çalıştıran `rdmd`
-ve paket yöneticisi `dmd` ile gelir. 
+D derleyicisi `dmd`, kodlarınızı betik-gibi çalıştıran `rdmd` ve
+paket yöneticisi `dub` ile gelir. 
 
 ### DMD Derleyicisi
 
-*DMD* derleyicisi D dosyalarını derleyerek binary dosyası oluşturur.
+*DMD* derleyicisi D dosya veya dosyalarını derleyerek kendi
+başına çalışabilen (binary) bir dosya oluşturur.
 Terminal aracılığıyla *DMD* dosya adıyla beraber çağırılabilir.
 
     dmd merhaba.d
@@ -35,7 +36,7 @@ UNIX benzeri sistemlerde Shebang satırı `#!/usr/bin/env rdmd`
 `dub` D dilinin standart paket yöneticisidir. `dub` yerel bir şekilde kurulmuştur.
 Komut satırından `merhaba` adında yeni proje oluşturmak için: 
 
-    dub init hello
+    dub init merhaba
 
 `dub` komutunu bu klasör içerisinde çalıştırmak bütün bağımlılıkları yükleyecek ve
 uygulamayı derleyip çalıştıracaktır.
