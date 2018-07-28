@@ -7,7 +7,7 @@ Daha detaylı bilgi için [Derleyiciler viki sayfasına](https://wiki.dlang.org/
 göz atabilirsiniz. D diline yeniyseniz ve hangisini yüklemeniz gerektiğini bilmiyorsanız
 DMD'yi yükleyebilirsiniz.
 
-## İndirmek ve Kurulum
+## İndirme ve Kurulum
 
 [D yüklemeler sayfasında](https://dlang.org/download.html) D derleyicilerine genel bir bakış
 ve İşletim Sistemine özel önceden derlenmiş hazır DMD paketlerini indirip yükleyebilirsiniz.
