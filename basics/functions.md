@@ -1,7 +1,7 @@
 # İşlevler (Functions)
 
-Her d programının başlangıç noktası olarak `main()` adında bir işlev
-her zaman tanımlanır. Bir işlev bir değer döndürebilir (veya değer dönmeyecekse
+Her D programının başlangıç noktası olarak `main()` adında bir işlev
+her zaman tanımlanır. İşlev bir değer döndürebilir (veya değer dönmeyecekse
 `void` olarak tanımlanır.) ve istenildiği kadar argüman alabilir:
 
     int topla(int lhs, int rhs) {
@@ -11,8 +11,8 @@ her zaman tanımlanır. Bir işlev bir değer döndürebilir (veya değer dönme
 ### `auto` dönüş değeri
 
 Eğer dönüş değeri `auto` olarak tanımlandıysa, D dili dönüş değerini
-otomatik olarak anlar. Bu nedenle farklı `return` ifadeleri uyumlu türde
-değerler döndürmek zorundadır.
+otomatik olarak anlar. Bu nedenle işlev içerisindeki bütün
+`return` ifadelerinin dönüş değerlerinin türleri uyumlu olmak zorundadır.
 
     auto topla(int lhs, int rhs) { // `int` döndürür
         return lhs + rhs;
@@ -27,8 +27,8 @@ değerler döndürmek zorundadır.
 
 ### Varsayılan argümanlar
 
-İşlevlerde isteğe bağlı olarak varsayılan argüman tanımlamaya izin verir.
-Bu sayede can sıkan gereksiz tekrarlamaları ortadan kaldırır.
+İşlevlerde isteğe bağlı olarak varsayılan argüman tanımlamaya izin verilir.
+Bu sayede can sıkan gereksiz tekrarlamalar ortadan kalkar.
 
     void plot(string msg, string color = "red") {
         ...
@@ -37,13 +37,13 @@ Bu sayede can sıkan gereksiz tekrarlamaları ortadan kaldırır.
     plot("D rocks", "blue");
 
 Varsayılan argüman tanımlandığında, sonraki bütün tanımlanan argümanların da
-varsayılan argüman olarak tanımlanması beklenir. 
+varsayılan argüman olarak tanımlanması zorunludur. 
 
 ### Yerel işlevler
 
 İşlevler başka bir işlevin içerisinde de tanımlanabilir. Bu sayede yerel
-bir şekilde kullanılabilir ve kapsam dışından erişim sağlanamaz.
-Ve hatta bu işlevler bulunduğu kapsamdaki değişkenlere erişebilir. 
+bir şekilde kullanılabilir ve kapsam dışından erişim engellenebilir.
+Ve hatta bu yerel işlevler, bulunduğu kapsamdaki nesnelere, değişkenlere erişebilir. 
 
     void fun() {
         int yerel = 10;
