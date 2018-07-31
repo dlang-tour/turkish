@@ -67,57 +67,58 @@ bir şekilde daha sonraki [bölümde](basics/delegates) açıklanacaktır.
 import std.stdio : writeln;
 import std.random : uniform;
 
-void randomCalculator()
+void rastgeleHesapla()
 {
-    // Define 4 local functions for
-    // 4 different mathematical operations
-    auto add(int lhs, int rhs) {
+    // 4 farklı matematik işlemi için
+    // 4 yerel işlev tanımlıyoruz.
+    auto topla(int lhs, int rhs) {
         return lhs + rhs;
     }
-    auto sub(int lhs, int rhs) {
+    auto çıkart(int lhs, int rhs) {
         return lhs - rhs;
     }
-    auto mul(int lhs, int rhs) {
+    auto çarp(int lhs, int rhs) {
         return lhs * rhs;
     }
-    auto div(int lhs, int rhs) {
+    auto böl(int lhs, int rhs) {
         return lhs / rhs;
     }
 
     int a = 10;
     int b = 5;
 
-    // uniform generates a number between START
-    // and END, whereas END is NOT inclusive.
-    // Depending on the result we call one of
-    // the math operations.
+    // uniform BAŞLANGIÇ ve BİTİŞ arasında
+    // rastgele bir sayı döndürür. BİTİŞ
+    // değeri dahil değildir.
+    // Sonuca göre matematik işlemlerinden
+    // birini çağırıyoruz.
     switch (uniform(0, 4)) {
         case 0:
-            writeln(add(a, b));
+            writeln(topla(a, b));
             break;
         case 1:
-            writeln(sub(a, b));
+            writeln(çıkart(a, b));
             break;
         case 2:
-            writeln(mul(a, b));
+            writeln(çarp(a, b));
             break;
         case 3:
-            writeln(div(a, b));
+            writeln(böl(a, b));
             break;
         default:
-            // special code which marks
-            // UNREACHABLE code
+            // Erişilemeyen kodu işaretleyen
+            // özel kod
             assert(0);
     }
 }
 
 void main()
 {
-    randomCalculator();
-    // add(), sub(), mul() and div()
-    // are NOT visible outside of their scope
+    rastgeleHesapla();
+    // topla(), çıkart(), çarp() and böl()
+    // işlevleri kapsamlarının dışında erişilebilir değil.
     static assert(!__traits(compiles,
-                            add(1, 2)));
+                            topla(1, 2)));
 }
 
 ```
