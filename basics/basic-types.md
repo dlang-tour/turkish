@@ -2,7 +2,7 @@
 
 D dilinde platformdan **bağımsız** olarak her zaman aynı
 boyutta olan temel veri türleri vardır. Tek istisna, mümkün 
-olan en geniş aralıkta kayan noktalı sayılarda(floating point)
+olan en geniş aralıkta kayan noktalı sayıları(floating point)
 sağlayan `real` veri türüdür. `Int` (tam sayı) veri türünün boyutu,
 uygulamanın 32 bit veya 64 bite derlenmesinden etkilenmez ve her
 zaman aynıdır.
@@ -27,7 +27,7 @@ zaman aynıdır.
 `char` UTF-8 karakterine çevirilirken, `wchar` UTF-16 karakter dizisinde ve `dchar`
 UTF32 karakter dizisinde kullanılır.
 
-Farklı türdeki değişkenler arasındaki tür dönüşümleri veri kaybı olmadığı sürece
+Farklı türdeki değişkenler arasındaki tür dönüşümlerine veri kaybı olmadığı sürece
 izin verilir. Ancak, kayan noktalı sayılarda (örneğin `double` veri türünden
 `float` veri türüne) dönüşümlere izin verilir. 
 
@@ -70,7 +70,7 @@ hafızadaki bütün ofsetleri temsil edebilecek büyüklüktedir.
 `assert`, debug modunda çalışarak koşulları doğrular ve koşul sağlanmadığında
 `AssertionError` ile programı durdurur.
 
-Bu yüzdendir ki `assert(0)` erişelemez kodu işaretlemek için kullanılır.
+Bu yüzdendir ki `assert(0)` erişilemez kodu işaretlemek için kullanılır.
 
 ### Geniş Kapsamlı
 
