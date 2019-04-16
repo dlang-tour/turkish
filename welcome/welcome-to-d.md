@@ -52,10 +52,10 @@ void main()
 {
     // Hadi başlayalım!
     writeln("Merhaba Dünya!");
-
+    
     // Tecrübeli programcılar için bir örnek:
     // Üç diziyi yeni bellek ayırmadan
-	// birbiri içinde sırala
+    // birbiri içinde sırala
     int[] arr1 = [4, 9, 7];
     int[] arr2 = [5, 2, 1, 10];
     int[] arr3 = [6, 8, 3];
@@ -63,6 +63,6 @@ void main()
     writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
     // Bu örnekle ilgili daha fazla öğrenmek için
     // "D'nin Cevherleri" kategorisinden "Range algoritmaları"
-	// sayfasına bakabilirsiniz
+    // sayfasına bakabilirsiniz
 }
 ```
