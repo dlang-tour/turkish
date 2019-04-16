@@ -4,28 +4,28 @@ Etkileşimli D Programlama Dili turuna hoş geldiniz.
 
 {{#dmanmobile}}
 
-Bu tur, bu __güçlü__ ve __etkileyici__ dilin bir tanıtımıdır. D dili kaynak kodu hızlı ve verimli bir şekilde doğrudan __doğal makine koduna__ derler. 
+Bu tur, doğrudan __doğal makine kodu__na derlenen __güçlü__ ve __etkileyici__ D dilinin bir tanıtımıdır.
 
 {{/dmanmobile}}
 
 ### D Nedir?
 
-D dili, bir çok farklı programlama dilinin onlarca yıllık birikiminin doruk noktasıdır ve çok sayıda [eşsiz özelliğe](http://dlang.org/overview.html) sahiptir:
+D _onlarca yıllık derleyici yazma tecrübesi_nin birikimiyle oluşmuş çok sayıda [eşsiz özelliğe](http://dlang.org/overview.html) sahip bir dildir:
 
 {{#dmandesktop}}
 
-- harika modelleme gücü için _yüksek seviye olanaklar_
+- ileri düzey modelleme gücü için _yüksek seviye olanaklar_
 - _yüksek performans_, derlemeli dil
-- statik tür tanımlaması
+- statik tür tanımlaması (static typing)
 - işletim sistemi arayüzüne ve donanımına doğrudan erişim
 - inanılmaz hızlı derleme süresi
 - güvenli bellek yönetimi (SafeD)
 - _kolay anlaşılır_, _düzenlenebilir_ kod
-- kısa sürede öğrenme (C benzeri sözdizimi, Java ve diğer dillere benzer)
+- kolay öğrenilebilir (C benzeri sözdizimi, Java ve diğer dillere benzer)
 - C ABI (application binary interface) ile uyumlu
-- Kısıtlı C++ ABI uyumluluğu
-- çoklu-paradigma (emirli, yapısal, nesne tabanlı, türden bağımsız, fonksiyonel programlama, saflık ve hatta assembly)
-- gömülü hata engelleme (sözleşmeler, birim testleri)
+- kısıtlı C++ ABI uyumluluğu
+- çoklu-paradigma (imperative (emirli), yapısal, nesne tabanlı, generic (türden bağımsız), fonksiyonel programlama, purity (saflık) ve hatta assembly)
+- dile gömülü hata yakalama (contracts (sözleşmeler), unittest (birim testleri))
 
 ... ve daha birçok [özellik](http://dlang.org/overview.html).
 
@@ -33,22 +33,36 @@ D dili, bir çok farklı programlama dilinin onlarca yıllık birikiminin doruk 
 
 ### Tur Hakkında
 
-Her bölüm, değiştirilebilir kod örnekleri ile beraber gelmektedir. Bu sayede D dilinin özelliklerini deneyimleyebilirsiniz.
-Çalıştır düğmesine basarak (veya `Ctrl-enter` ile) programı derleyebilir ve çalıştırabilirsiniz.
+Her bölüm düzenlenebilen kod örnekleri içerir. Bu sayede D dilinin özelliklerini tarayıcınızda deneyebilirsiniz. Çalıştır düğmesine basarak (veya `Ctrl-Enter` ile) programı derleyip çalıştırabilirsiniz.
+
+Sayfalar arasında geçiş yapmak için sayfadaki "`<` önceki" and "sonraki `>`" linklerini veya sağ/sol ok tuşlarını kullanabilir yada menüden direk istediğiniz bir bölüme atlayabilirsiniz.
 
 ### Katkıda Bulun
 
-Bu tur [açık kaynak kodludur](https://github.com/stonemaster/dlang-tour).
-Bu turu daha iyi bir hale getirmek için yapacağınız katkılardan memnun kalırız.
+Bu tur [açık kaynak kodludur](https://github.com/dlang-tour) ve turu daha da iyileştirmek yapmak için katkıda bulunmaktan çekinmeyin.
 
 ## {SourceCode}
 
 ```d
 import std.stdio;
+import std.algorithm;
+import std.range;
 
-// Haydi Başlayalım!
 void main()
 {
-  writeln("Merhaba Dünya!");
+    // Hadi başlayalım!
+    writeln("Merhaba Dünya!");
+
+    // Tecrübeli programcılar için bir örnek:
+    // Üç diziyi yeni bellek ayırmadan
+	// birbiri içinde sırala
+    int[] arr1 = [4, 9, 7];
+    int[] arr2 = [5, 2, 1, 10];
+    int[] arr3 = [6, 8, 3];
+    sort(chain(arr1, arr2, arr3));
+    writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
+    // Bu örnekle ilgili daha fazla öğrenmek için
+    // "D'nin Cevherleri" kategorisinden "Range algoritmaları"
+	// sayfasına bakabilirsiniz
 }
 ```

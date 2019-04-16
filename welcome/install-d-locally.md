@@ -1,28 +1,16 @@
 # D'nin Kurulumu
 
-D dilinin resmi derleyici DMD olarak çağrılır (Digital Mars D).
-Ayrıca [LDC](https://github.com/ldc-developers/ldc)([LLVM](http://llvm.org) bazlı D derleyicisi)
-ve [GDC](https://gdcproject.org) ([GCC](https://gcc.gnu.org/) bazlı D derleyicisi) mevcuttur.
-Daha detaylı bilgi için [Derleyiciler viki sayfasına](https://wiki.dlang.org/Compilers) 
-göz atabilirsiniz. D diline yeniyseniz ve hangisini yüklemeniz gerektiğini bilmiyorsanız
-DMD'yi yükleyebilirsiniz.
+D dilinin resmi derleyicisi DMD'dir (Digital Mars D). Ayrıca [LDC](https://github.com/ldc-developers/ldc) ([LLVM](http://llvm.org) tabanlı) ve [GDC](https://gdcproject.org) ([GCC](https://gcc.gnu.org/) tabanlı) D derleyicileri de mevcuttur. Daha detaylı bilgi için [Derleyiciler](https://wiki.dlang.org/Compilers) viki sayfasına göz atabilirsiniz. D diline yeniyseniz ve hangisini yüklemeniz gerektiğini bilmiyorsanız DMD'yi yükleyemenizi öneririz.
 
 ## İndirme ve Kurulum
 
-[D yüklemeler sayfasında](https://dlang.org/download.html) D derleyicilerine genel bir bakış
-ve İşletim Sistemine özel önceden derlenmiş hazır DMD paketlerini indirip yükleyebilirsiniz.
+[D indirme sayfası](https://dlang.org/download.html) farklı D derleyicileriyle ilgili bir takım bilgiler ve çeşitli işletim sistemleri için derleyici kurulum dosyalarını barındırır.
 
-İşletim Sistemine özel paketlere alternatif olarak bir de 
-Posix-benzeri Sistemler (Linux, FreeBSD, MacOS) için
-yönetici izni gerektirmeyen [yükleme komutu](https://dlang.org/install.html) 
-mevcuttur.
-Daha detaylı bilgi için [install script](https://dlang.org/install.html) kısmına bakabilirsiniz.
+Kurulum dosyalarına alternatif olarak Posix-benzeri sistemler (Linux, FreeBSD, MacOS) için yönetici izni gerektirmeyen [yükleme komutu](https://dlang.org/install.sh)nu çalıştırabilirsiniz. Daha detaylı bilgi için [yükleme komutu kılavuzu](https://dlang.org/install.html)na bakabilirsiniz.
 
-## Kod Editörü
+## Kod Düzenleyici
 
-D'nin güzel tarafı, kod şablonları için süslü bir IDE'ye ihtiyacınız yoktur.
-Fakat, D dilini rahat kullandığınız favori editörünüzde kullanmanız daha iyi olacaktır.
-Aşağıdaki editörler için D eklentileri mevcuttur.
+D'nin güzel tarafı, süslü bir IDE'ye ihtiyacınız yoktur çünkü D sizi uzun ve kendini tekrar eden (boilerplate) kod yazmaktan kurtarır. Yine de rahat kullandığınız favori editörünüz varsa aşağıdaki D eklentilerinden birini deneyebilirsiniz:
 
 - [Atom](https://github.com/Pure-D/atomize-d)
 - [Eclipse](http://ddt-ide.github.io)
@@ -33,9 +21,9 @@ Aşağıdaki editörler için D eklentileri mevcuttur.
 - [VS Code](https://marketplace.visualstudio.com/items/webfreak.code-d)
 - [__Visual Studio__](http://rainers.github.io/visuald/visuald/StartPage.html)
 
-D için tasarlanmış IDE'leri de tercih edebilirsiniz:
+D için özel tasarlanmış IDE'leri de tercih edebilirsiniz:
 
 - [Coedit](https://github.com/BBasile/Coedit)
 - [Dlang IDE](https://github.com/buggins/dlangide)
 
-Viki sayfasında mevcut [editör](https://wiki.dlang.org/Editors) ve [IDElerin](https://wiki.dlang.org/IDEs) daha detaylı bilgisine ulaşabilirsiniz.
+Viki sayfasından mevcut [editörler](https://wiki.dlang.org/Editors) ve [IDE'ler](https://wiki.dlang.org/IDEs) hakkında daha detaylı bilgiye ulaşabilirsiniz.
