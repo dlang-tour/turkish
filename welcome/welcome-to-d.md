@@ -61,8 +61,9 @@ void main()
     int[] arr3 = [6, 8, 3];
     sort(chain(arr1, arr2, arr3));
     writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
-    // Bu örnekle ilgili daha fazla öğrenmek için
-    // "D'nin Cevherleri" kategorisinden "Range algoritmaları"
-    // sayfasına bakabilirsiniz
+    // Bu örnekle ilgili daha fazla öğrenmek
+    // için "D'nin Cevherleri" kategorisinden
+    // "Range algoritmaları" sayfasına
+	// bakabilirsiniz
 }
 ```
