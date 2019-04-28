@@ -35,11 +35,11 @@ D _onlarca yıllık derleyici yazma tecrübesi_nin birikimiyle oluşmuş çok sa
 
 Her bölüm düzenlenebilen kod örnekleri içerir. Bu sayede D dilinin özelliklerini tarayıcınızda deneyebilirsiniz. Çalıştır düğmesine basarak (veya `Ctrl-Enter` ile) programı derleyip çalıştırabilirsiniz.
 
-Sayfalar arasında geçiş yapmak için sayfadaki "`<` önceki" and "sonraki `>`" linklerini veya sağ/sol ok tuşlarını kullanabilir yada menüden direk istediğiniz bir bölüme atlayabilirsiniz.
+Sayfalar arasında geçiş yapmak için sayfadaki "`<` önceki" and "sonraki `>`" linklerini veya sağ/sol ok tuşlarını kullanabilir ya da menüden istediğiniz bir bölüme doğrudan atlayabilirsiniz.
 
 ### Katkıda Bulun
 
-Bu tur [açık kaynak kodludur](https://github.com/dlang-tour) ve turu daha da iyileştirmek yapmak için katkıda bulunmaktan çekinmeyin.
+Bu tur [açık kaynak kodludur](https://github.com/dlang-tour) ve turu daha da iyileştirmek için katkıda bulunmaktan çekinmeyin.
 
 ## {SourceCode}
 
@@ -50,10 +50,10 @@ import std.range;
 
 void main()
 {
-    // Hadi başlayalım!
+    // Haydi başlayalım!
     writeln("Merhaba Dünya!");
     
-    // Tecrübeli programcılar için bir örnek:
+    // Deneyimli programcılar için bir örnek:
     // Üç diziyi yeni bellek ayırmadan
     // birbiri içinde sırala
     int[] arr1 = [4, 9, 7];
@@ -61,9 +61,9 @@ void main()
     int[] arr3 = [6, 8, 3];
     sort(chain(arr1, arr2, arr3));
     writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
-    // Bu örnekle ilgili daha fazla öğrenmek
+    // Bu örnekle ilgili daha fazla bilgi
     // için "D'nin Cevherleri" kategorisinden
     // "Range algoritmaları" sayfasına
-	// bakabilirsiniz
+    // bakabilirsiniz
 }
 ```
