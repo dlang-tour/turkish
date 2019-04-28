@@ -20,4 +20,4 @@ Türkçe devam etmek için sonraki sayfaya geçebilirsiniz.
 
 ## Sizin diliniz yok mu?
 
-Henüz yapım aşamasında olan [çevirileri burdan](https://github.com/dlang-tour) görebilirsiniz, yada bizi [GitHub](https://github.com/dlang-tour/core/issues/new)'da yeni bir çeviri projesi oluşturmak için pingleyin.
+Henüz yapım aşamasında olan [çevirileri buradan](https://github.com/dlang-tour) görebilirsiniz, ya da bizi [GitHub](https://github.com/dlang-tour/core/issues/new)'da yeni bir çeviri projesi oluşturmak için pingleyin.
