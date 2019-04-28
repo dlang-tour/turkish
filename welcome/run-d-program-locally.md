@@ -19,7 +19,7 @@ Yardımcı araç `rdmd`, DMD derleyicisi ile beraber gelir, Bütün bağımlıl�
 UNIX benzeri sistemlerde shebang satırı `#!/usr/bin/env rdmd` çalıştırılacak D kodunun en üst satırına eklenerek betik gibi çalışması sağlanabilir.
 
 
-Detaylı bilgi için [kullanım klavuzu](https://dlang.org/rdmd.html)na bakabilir veya `rdmd --help` komutunu çalıştırabilirsiniz.
+Detaylı bilgi için [kullanım kılavuzu](https://dlang.org/rdmd.html)na bakabilir veya `rdmd --help` komutunu çalıştırabilirsiniz.
 
 ### `dub` Paket Yöneticisi
 
@@ -29,6 +29,6 @@ Detaylı bilgi için [kullanım klavuzu](https://dlang.org/rdmd.html)na bakabili
 
 `dub` komutunu bu klasör içerisinde çalıştırmak bütün bağımlılıkları yükleyecek ve uygulamayı derleyip çalıştıracaktır. `dub build` komutu ise programı sadece derleyecektir.
 
-Mevcut komut ve özellikleri görmek için [kullanım klavuzu](https://code.dlang.org/docs/commandline)na bakabilir veya `dub help` komutunu çalıştırabilirsiniz.
+Mevcut komut ve özellikleri görmek için [kullanım kılavuzu](https://code.dlang.org/docs/commandline)na bakabilir veya `dub help` komutunu çalıştırabilirsiniz.
 
 Bütün mevcut dub paketlerine https://code.dlang.org sayfasından göz atabilirsiniz.
