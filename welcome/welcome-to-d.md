@@ -1,4 +1,4 @@
-# D'ye Hoşgeldiniz
+# D'ye Hoş geldiniz
 
 Etkileşimli D Programlama Dili turuna hoş geldiniz.
 
@@ -49,6 +49,6 @@ import std.stdio;
 // Haydi Başlayalım!
 void main()
 {
-writeln("Merhaba Dünya!");
+  writeln("Merhaba Dünya!");
 }
 ```
